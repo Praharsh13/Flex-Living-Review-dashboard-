@@ -1,0 +1,157 @@
+{
+    "status": "success",
+    "result":[
+    {
+      "id": 7601,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Great location but check-in was a bit confusing.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 6 },
+        { "category": "location", "rating": 9 }
+      ],
+      "submittedAt": "2021-07-20 16:10:00",
+      "guestName": "Maria Lopez",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7602,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Spacious and clean. Check-in instructions improved since last time!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 9 },
+        { "category": "location", "rating": 9 }
+      ],
+      "submittedAt": "2022-04-02 11:00:00",
+      "guestName": "James Porter",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7603,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Noisy at night and heating took a while to start.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 7 },
+        { "category": "location", "rating": 6 },
+        { "category": "value", "rating": 6 }
+      ],
+      "submittedAt": "2022-12-15 21:05:00",
+      "guestName": "Elena Morozova",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7604,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Very clean and modern. Would return.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "value", "rating": 8 }
+      ],
+      "submittedAt": "2023-05-09 14:30:00",
+      "guestName": "Priya K",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7605,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Everything was smooth. Minor street noise, bring earplugs.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 8 },
+        { "category": "location", "rating": 8 }
+      ],
+      "submittedAt": "2024-03-18 08:20:00",
+      "guestName": "Tom Becker",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+  
+    {
+      "id": 7701,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Lovely loft, bright and airy.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "value", "rating": 8 },
+        { "category": "location", "rating": 9 }
+      ],
+      "submittedAt": "2022-09-10 12:40:00",
+      "guestName": "Hannah Lee",
+      "listingName": "3A SE - Greenwich Light Loft"
+    },
+    {
+      "id": 7702,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Nice place but Wi-Fi was spotty.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 7 },
+        { "category": "value", "rating": 7 }
+      ],
+      "submittedAt": "2023-04-22 18:55:00",
+      "guestName": "Rafael Santos",
+      "listingName": "3A SE - Greenwich Light Loft"
+    },
+    {
+      "id": 7703,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Quiet at night and comfy bed. Great stay.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 9 },
+        { "category": "location", "rating": 8 }
+      ],
+      "submittedAt": "2024-11-03 10:10:00",
+      "guestName": "Wei Zhang",
+      "listingName": "3A SE - Greenwich Light Loft"
+    },
+  
+    {
+      "id": 7801,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Good overall. Check-in instructions could be clearer.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 6 },
+        { "category": "location", "rating": 8 }
+      ],
+      "submittedAt": "2021-10-05 17:25:00",
+      "guestName": "Nora Ahmed",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7802,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Host was responsive and flexible with late check-out.",
+      "reviewCategory": [
+        { "category": "communication", "rating": 9 },
+        { "category": "value", "rating": 8 }
+      ],
+      "submittedAt": "2023-08-28 13:15:00",
+      "guestName": "Giulia Rossi",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    }
+  ]
+}  
