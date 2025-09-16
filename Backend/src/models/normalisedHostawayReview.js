@@ -18,6 +18,7 @@ export function normalizeHostawayReview(r) {
         listing: r.listingName ?? 'Unknown Listing', // 
         channel: 'hostaway',
         submittedAt: r.submittedAt ? new Date(r.submittedAt.replace(' ', 'T')) : null
+        
         }
 }
 
@@ -39,6 +40,24 @@ export function normalizeHostawayReview(r) {
             result:reviews
         }
     }
+
+    export async function listPublicApprovedReviews() {
+        const rows = await Review.find({ channel: 'hostaway', approved: true })
+          .sort({ submittedAt: 1 })
+          .lean()
+      
+        const groupedByListing = rows.reduce((acc, r) => {
+          (acc[r.listing] ||= []).push(r)
+          return acc
+        }, {})
+      
+        return {
+          status: 'success',
+          total: rows.length,
+          groupedByListing,
+          result: rows
+        }
+      }
 
 //toggle the flag for review if it is public or not
     export async function toggleApproved(id){

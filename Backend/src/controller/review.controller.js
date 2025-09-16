@@ -1,4 +1,4 @@
-import { listOfHostwayReview,toggleApproved } from "../models/normalisedHostawayReview.js";
+import { listOfHostwayReview,toggleApproved ,listPublicApprovedReviews} from "../models/normalisedHostawayReview.js";
 
     export async function getHostawayReviews(req, res) {
         try {
@@ -23,3 +23,13 @@ import { listOfHostwayReview,toggleApproved } from "../models/normalisedHostaway
             
         }
     }
+    export async function getPublicApprovedReviews(req, res) {
+        try {
+          const payload = await listPublicApprovedReviews()
+          return res.json(payload)
+        } catch (e) {
+          console.error(e)
+          return res.status(500).json({ error: 'Failed to fetch public reviews' })
+        }
+      }
+    
