@@ -93,10 +93,12 @@ function Header() {
 function App() {
   
   return (
+    
     <BrowserRouter>
+    
       <Header />
-      <main className="mx?
-      -auto max-w-6xl px-4 py-6">
+      <main className="mx
+      -auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
       <Routes>
   {/* Public */}
   <Route path="/" element={<HomePublic />} />

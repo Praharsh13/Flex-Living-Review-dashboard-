@@ -1,7 +1,16 @@
 @import "tailwindcss";
-
 @source "./index.html";
 @source "./src/**/*.{js,jsx,ts,tsx}";
 
-html, body, #root { height: 100%; }
-body { overflow-x: hidden; }  /* extra safety */
+/* Prevent tiny horizontal scrollbars that make the app look "tilted" */
+html, body, #root {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* Optional: smooth fonts for a cleaner centered look */
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+
