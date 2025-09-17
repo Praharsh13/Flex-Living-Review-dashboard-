@@ -1,4 +1,4 @@
-import React, { useId, useMemo } from 'react'
+import  { useId, useMemo } from 'react'
 import type { Review } from '../types'
 import { aggregates } from '../util'
 import {

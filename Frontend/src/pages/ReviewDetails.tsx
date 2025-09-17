@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import  { useEffect, useMemo, useState } from 'react'
 import { useLocation, useNavigate, useParams, Navigate } from 'react-router-dom'
 import type { Review, ReviewsPayload } from '../types'
 import { fetchReviews, toggleAproval } from '../lib/api'

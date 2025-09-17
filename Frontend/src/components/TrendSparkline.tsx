@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 type Point = { i: number; avg: number }
 export default function TrendSparkline({ points }: { points: Point[] }) {

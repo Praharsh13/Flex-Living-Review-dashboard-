@@ -1,4 +1,4 @@
-import React from 'react'
+
 import type { Review } from '../types'
 
 export default function ReviewsDrawer({
