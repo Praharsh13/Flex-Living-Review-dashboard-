@@ -132,3 +132,7 @@ By seeding into MongoDB, I can treat reviews as proper documents and persist cha
 
 Upsert logic means I can rerun the seed whenever I want to refresh or extend the dataset without clearing the DB.
 
+
+Please find Admin email and Password here for Admin dashboard login:
+Email:admin@flexliving.test
+Password:supersecret

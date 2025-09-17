@@ -48,7 +48,8 @@ function StarRating10({ value }: { value: number | null }) {
 /* -------------------- main page -------------------- */
 
 export default function Property() {
-  const { name } = useParams<{ name: string }>()
+  const { name:raw } = useParams<{ name: string }>()
+  const name = raw ? decodeURIComponent(raw) : ''
   const [payload, setPayload] = useState<ReviewsPayload | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
